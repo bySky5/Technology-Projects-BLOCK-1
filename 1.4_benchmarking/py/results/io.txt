@@ -1,0 +1,8 @@
+group3@Pi3-yi:~/afternoon/Technology-Projects-BLOCK-1/1.4_benchmarking/py $ dd if=/dev/zero of=testfile.bin bs=100M count=1 oflag=direct
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 3.12102 s, 33.6 MB/s
+group3@Pi3-yi:~/afternoon/Technology-Projects-BLOCK-1/1.4_benchmarking/py $ dd if=testfile.bin of=/dev/null bs=100M count=1 iflag=direct
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 2.31715 s, 45.3 MB/s

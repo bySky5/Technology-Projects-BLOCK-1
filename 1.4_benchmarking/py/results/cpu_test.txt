@@ -1,0 +1,3 @@
+Execution time:  1.0207905039999332 seconds
+
+temp=51.6'C

@@ -1,0 +1,2 @@
+Memory allocation time: 0.13496813699975974
+

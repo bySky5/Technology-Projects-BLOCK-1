@@ -1,0 +1,20 @@
+group3@Pi3-yi:~/afternoon/Technology-Projects-BLOCK-1/1.4_benchmarking/py $ iperf3 -c 10.248.173.27
+Connecting to host 10.248.173.27, port 5201
+[  5] local 10.248.173.27 port 60160 connected to 10.248.173.27 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   837 MBytes  7.01 Gbits/sec    0   1023 KBytes       
+[  5]   1.00-2.00   sec   900 MBytes  7.55 Gbits/sec    0   1023 KBytes       
+[  5]   2.00-3.00   sec   904 MBytes  7.58 Gbits/sec    0   1023 KBytes       
+[  5]   3.00-4.00   sec   910 MBytes  7.63 Gbits/sec    0   1023 KBytes       
+[  5]   4.00-5.00   sec   911 MBytes  7.64 Gbits/sec    0   1023 KBytes       
+[  5]   5.00-6.00   sec   891 MBytes  7.47 Gbits/sec    0   1023 KBytes       
+[  5]   6.00-7.00   sec   942 MBytes  7.90 Gbits/sec    0   1023 KBytes       
+[  5]   7.00-8.00   sec   910 MBytes  7.63 Gbits/sec    0   1023 KBytes       
+[  5]   8.00-9.00   sec   953 MBytes  7.99 Gbits/sec    0   1023 KBytes       
+[  5]   9.00-10.00  sec   892 MBytes  7.47 Gbits/sec    0   1023 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  8.84 GBytes  7.59 Gbits/sec    0            sender
+[  5]   0.00-10.00  sec  8.84 GBytes  7.59 Gbits/sec                  receiver
+
+iperf Done.

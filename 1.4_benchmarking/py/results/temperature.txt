@@ -1,0 +1,4 @@
+Every 2.0s: vcgencmd measure_temp             Pi3-yi: Fri Oct 23 16:30:55 2026
+
+temp=73.5'C
+
